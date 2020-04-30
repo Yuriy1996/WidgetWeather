@@ -1,0 +1,20 @@
+.widget-weather {
+  padding-top: 20px;
+
+  .wrapper {
+    @include flex-container($flex-direction: column);
+  }
+
+  &__select-city {
+    margin-bottom: 20px;
+    border: 1px solid $color-dark-gray;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__detail-info {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,12 @@
+@mixin flex-container($flex-direction: row, $flex-wrap: nowrap, $justify-content: flex-start, $align-items: stretch, $isFlexCenter: false) {
+  @if $isFlexCenter {
+    $justify-content: center;
+    $align-items: center;
+  }
+
+  display: flex;
+  flex-direction: $flex-direction;
+  flex-wrap: $flex-wrap;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

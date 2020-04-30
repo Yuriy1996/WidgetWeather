@@ -1,0 +1,36 @@
+$color-dark-gray: #505050;
+$color-white: white;
+$color-gray: #f9f9f9;
+
+
+//font-family
+:root {
+  --font-family: 'Oswald', sans-serif;
+}
+
+//font-weight
+:root {
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+}
+
+//background
+.widget-weather-detail {
+  --background-color-odd-row: #{$color-gray};
+  --background-color-even-row: #{$color-white};
+}
+
+//color
+:root {
+  --color-main: #{$color-dark-gray};
+}
+
+//font-size
+:root {
+  --font-size-main: 14px;
+}
+
+.widget-weather {
+  --font-size-city-name: 24px;
+  --font-size-temperature: 30px;
+}

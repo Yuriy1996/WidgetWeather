@@ -1,0 +1,17 @@
+.widget-weather-main {
+  &__city-name {
+    font-size: var(--font-size-city-name);
+    font-weight: var(--font-weight-bold);
+  }
+
+  &__row {
+    margin-top: 5px;
+    @include flex-container($align-items: center);
+  }
+
+  &__temperature {
+    font-size: var(--font-size-temperature);
+    font-weight: var(--font-weight-bold);
+    margin-left: 10px;
+  }
+}

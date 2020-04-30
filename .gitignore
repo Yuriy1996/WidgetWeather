@@ -1,0 +1,5 @@
+node_modules/
+dist/
+downloaded/
+.idea/
+package-lock.json

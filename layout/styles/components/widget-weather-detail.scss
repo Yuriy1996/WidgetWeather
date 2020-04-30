@@ -1,0 +1,10 @@
+.widget-weather-detail {
+
+  &__item:nth-child(odd) {
+    background-color: var(--background-color-odd-row);
+  }
+
+  &__item &__value {
+    padding: 5px 10px;
+  }
+}
